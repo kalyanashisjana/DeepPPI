@@ -1,0 +1,17 @@
+# In-house Transformer, GINE, notebooks, and cheminformatics.
+# This is a practical dependency list extracted from source imports, NOT pip freeze.
+# Choose a mutually compatible PyTorch/CUDA + PyG installation for your machine.
+# Install torch / torch-geometric using their official compatibility instructions first.
+# Tested local environment name in the project: ppi_gnn
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+Pillow
+rdkit
+torch
+torch-geometric
+tqdm
+jupyterlab
+ipykernel

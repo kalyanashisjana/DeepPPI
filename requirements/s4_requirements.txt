@@ -1,0 +1,16 @@
+# S4 PPI-specific scripts and evaluation.
+# Practical dependency guide based on project imports, NOT a lockfile.
+# The published S4 source must be installed separately (pip install -e .).
+# Use a torch + CUDA combination matching the local GPU driver.
+# Previously working local environment: s4dd_torch2; torch 2.5.1+cu121.
+numpy
+pandas
+scipy
+rdkit
+torch
+matplotlib
+tqdm
+jupyterlab
+ipykernel
+# External project: https://github.com/molML/s4-for-de-novo-drug-design
+# python -m pip install -e /path/to/s4-for-de-novo-drug-design

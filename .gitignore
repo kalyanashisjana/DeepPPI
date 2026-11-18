@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+
+# Large datasets
+/data/
+/checkpoints/
+
+# Local research outputs
+/analysis/
+/generation/
+/miscellaneous/
+
+# S4 experiments and outputs
+/s4_fine_tuning/experiments/
+/s4_fine_tuning/S4_ChEMBL_pretrained_1000.csv
+
+# Model files and archives
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.zip
+*.gz
+*.sdf
+*.parquet
+
+# Logs and temporary files
+*.log
+*.tmp
+wandb/
+runs/
+
+# Windows metadata
+*:Zone.Identifier
+
+# OS
+.DS_Store
+Thumbs.db
